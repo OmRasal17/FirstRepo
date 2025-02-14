@@ -1,0 +1,59 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #2764a5, #0056b3);
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px; /* Adjust size as needed */
+    width: 40px;  /* Make width and height equal for a perfect circle */
+    border-radius: 50%; /* Makes it round */
+    object-fit: cover; /* Ensures the image is properly cropped if not square */
+    border: 2px solid white; /* Optional: Add a border around the logo */
+  }
+  
+  .logoText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .ctaButton {
+    background-color: #ff7f50;
+    color: #f6efef;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: transform 0.3s;
+  }
+  
+  .ctaButton:hover {
+    transform: scale(1.1);
+    background-color: #ff5722;
+  }
+  

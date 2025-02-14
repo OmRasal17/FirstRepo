@@ -1,0 +1,85 @@
+
+
+/* Hero Section */
+.heroSection {
+  background: url('../assets/background.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 60px 20px;
+  text-align: center;
+  }
+  
+  .heroContent h1 {
+    font-size: 2.5rem;
+    color: #0d0d0e; /* Light purple text */
+  }
+  
+  .heroContent p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #010101; /* Light gray text */
+  }
+  
+  /* Call-to-Action Button */
+  .ctaButton {
+    background-color: #ff7f50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  
+  .ctaButton:hover {
+    background-color: #ff5722;
+  }
+  
+  .featuresSection {
+    padding: 40px 20px;
+    background: url('../assets/background.png') no-repeat center center; /* Replace 'background-features.jpg' with your image name */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff; /* Ensure text is visible on the background */
+    text-align: center;
+  }
+  
+  
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .featureItem {
+    width: 30%;
+    padding: 20px;
+    background: #333; /* Darker background for each feature */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for depth */
+  }
+  
+  .featureItem h3 {
+    color: #e7e4ec; /* Light purple for headings */
+  }
+  
+  .featureItem p {
+    color: #bbb; /* Light gray text */
+  }
+  
+  /* Footer Section */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #121212; /* Dark background */
+    color: #bbb; /* Light gray text */
+  }
+  
+  .footer a {
+    color: #322e2e; /* Light purple links */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #3700b3; /* Darker purple when hovered */
+  }
+  
